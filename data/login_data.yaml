@@ -1,0 +1,11 @@
+test_login:
+  test_login_001:
+    phone: "13800138006"
+    password: "123456"
+    expect: "登录成功"
+  test_login_002:
+    phone: "13800138006"
+    password: "123456123"
+    expect: "密码错误"
+
+
